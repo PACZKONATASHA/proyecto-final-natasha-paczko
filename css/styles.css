@@ -16,9 +16,8 @@ header {
 
 }
 
-nav {}
+nav {
 
-float ring .img--icono {
   float: left;
   height: 50px;
   width: 50px;
@@ -193,10 +192,7 @@ float ring .img--icono {
 
 #destacados.row {
 
-  margin-top: 5px padding 25px;
-
-
-
+  margin-top: 5px padding 25p
 
 }
 
@@ -206,16 +202,9 @@ float ring .img--icono {
   padding: 0 30px 30px;
 }
 
-#destacados :hover {
+ /*#destacados :hover {
 
-  border: 5px solid #f7f7f7
+  border: 5px solid #f7f7f7;
 }
 
-#redes {
-  align-items: center;
-  display: flex;
-  height: 10%;
-  justify-content: center;
-  width: 10 px;
-
-}
+/*=*
