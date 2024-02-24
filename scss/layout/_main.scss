@@ -1,0 +1,16 @@
+.carrusel-principal{
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 50%;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    position: relative;
+  img.carrusel-item{
+    height: 50%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+  }
+    
+}

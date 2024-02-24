@@ -1,7 +1,18 @@
-header.header-index {
-  background: pink img;
-  background-width: 50px;
-  background-height: 50px;
+.carrusel-principal {
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  position: relative;
+}
+.carrusel-principal img.carrusel-item {
+  height: 50%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  scroll-snap-align: center;
 }
 
 body {
@@ -11,7 +22,7 @@ body {
   font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
 }
 
-header {
+.hearder-index {
   background: rgba(0, 0, 0, 0.7);
   width: 100%;
   height: 20%;
@@ -19,23 +30,23 @@ header {
   display: block;
   position: fixed;
 }
-header img {
+.hearder-index img {
   width: 50px;
   height: 50px;
 }
-header nav {
+.hearder-index nav {
   float: right;
 }
-header nav ul {
+.hearder-index nav ul {
   list-style: none;
   overflow: hidden;
 }
-header nav ul li {
+.hearder-index nav ul li {
   float: left;
   font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
   font-size: 20px;
 }
-header nav ul li a {
+.hearder-index nav ul li a {
   display: block;
   padding: 10px;
   color: #fff;
