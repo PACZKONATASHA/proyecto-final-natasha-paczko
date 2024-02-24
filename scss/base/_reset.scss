@@ -9,10 +9,38 @@ body{
 header {
     background: rgba(0,0,0,0.7);
     width: 100%;
-    height: 30%;
+    height: 20%;
     z-index: 100;
     display: block;
     position: fixed;
+    img{
+        width: 50px;
+        height: 50px;
+    }
     
+nav {
+    float: right;
+  }
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+
+
+nav ul li {
+    float: left;
+    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;;
+    font-size: 20px;
+  }
+
+nav ul li a {
+    display: block; 
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
 }
 
