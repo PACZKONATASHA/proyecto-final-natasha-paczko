@@ -14,3 +14,23 @@
   }
     
 }
+.galeria{
+
+    h1{
+        display: flex;
+        align-items: center;
+        display: flex;
+        height: 400;
+        justify-content: center;
+        width: 300 px;
+        color: #cc2399;
+    }
+    p{
+        text-align: center;
+    }
+ img{
+    width: 100%;
+    height: 250%;
+ }
+}
+
