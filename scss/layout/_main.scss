@@ -14,32 +14,47 @@
   }
     
 }
-.galeria{
-    
-    h1{
-        display: flex;
-        align-items: center;
-        display: flex;
-        height: 400;
-        justify-content: center;
-        width: 300 px;
-        color: #cc2399;
-    }
-    p{
-        text-align: center;
-    }
- img{
-    width: 450px;
-    height: 600px;
-    & :hover{
-      border: 5px solid blanchedalmond;
-    }
- }
- col-lg-4{
-    margin: 5%;
-    padding: 25%;
- }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.formulario{
-  margin: 5%;
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+
+
+.image-container {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.view-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos adicionales para diferentes tamaños de pantalla */
+@media only screen and (max-width: 768px) {
+  .image-container {
+    width: 100%;
+  }
+}
 }
