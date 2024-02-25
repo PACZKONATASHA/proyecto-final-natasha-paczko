@@ -1,47 +1,61 @@
-body{
-  background-image: linear-gradient(to left, #b35dbb, #c16ec0, #cd80c6, #d992cc, #e3a4d3);
-  width: 100%;
-  height: 100%;
-  font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
-
+body {
+  background-color: pink;
+  font-family:sans-serif ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
- .hearder-index {
 
-  background: rgba(0, 0, 0, 0.7);
-  width: 100%;
-  height: 20%;
-  z-index: 100;
-  display: block;
-  position: fixed;
-  img{
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+   img{
     width: 50px;
     height: 50px;
-  }
-  
-  nav {
-    float: right;
-  }
-  
-  
-  nav ul {
-    list-style: none;
-    overflow: hidden;
-  }
-  
-  
-  nav ul li {
-    float: left;
-    font-family: Rockwell, Courier Bold, Courier, Georgia, Times, Times New Roman, seriff;
-    ;
-    font-size: 20px;
-  }
-  
-  nav ul li a {
-    display: block;
-    padding: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  
 
+  }
+
+
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin: 0 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  header {
+      flex-direction: column;
+  }
+
+  nav {
+      margin-top: 15px;
+  }
+
+  ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  li {
+      margin: 10px 0;
+  }
+}
 }
