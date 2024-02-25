@@ -56,6 +56,20 @@ body {
   }
 }
 
+.formulario h2 {
+  display: flex;
+  justify-content: center;
+}
+.formulario p {
+  display: flex;
+  justify-content: center;
+}
+.formulario ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 5%;
+}
+
 body {
   background-color: pink;
   font-family: sans-serif;
